@@ -1,0 +1,651 @@
+Debug level is 1
+Dynarec is On
+Allow missing needed libs
+Dynarec for ARM, with extension: HALF FAST_MULT EDSP NEON VFPv4 IDIVA PageSize:4096
+Box86 with Dynarec v0.2.3 3a503ad4 built on Sep  5 2021 09:50:53
+BOX86_LD_LIBRARY_PATH: /roms/ports/petalcrush/box86/lib/:/usr/lib/arm-linux-gnueabihf/:./:lib/:libbin32/:x86/
+Using default BOX86_PATH: ./:bin/
+Counted 21 Env var
+Looking for bin32/Chowdren
+LIBGL: Initialising gl4es
+LIBGL: v1.1.5 built on May  5 2021 17:29:04
+LIBGL: using GBM
+LIBGL: Using GLES 2.0 backend
+LIBGL: loaded: libGLESv2.so
+LIBGL: loaded: libEGL.so
+LIBGL: loaded: libgbm.so
+LIBGL: loaded: libdrm.so
+LIBGL: Using GLES 2.0 backend
+LIBGL: GBM on card /dev/dri/card0 is Available
+arm_release_ver of this libmali is 'g2p0-01eac0', rk_so_ver is '3'.LIBGL: Hardware Full NPOT detected and used
+LIBGL: Extension GL_EXT_blend_minmax  detected and used
+LIBGL: FBO are in core, and so used
+LIBGL: PointSprite are in core, and so used
+LIBGL: CubeMap are in core, and so used
+LIBGL: BlendColor is in core, and so used
+LIBGL: Blend Substract is in core, and so used
+LIBGL: Blend Function and Equation Separation is in core, and so used
+LIBGL: Texture Mirrored Repeat is in core, and so used
+LIBGL: Extension GL_OES_mapbuffer  detected
+LIBGL: Extension GL_OES_element_index_uint  detected and used
+LIBGL: Extension GL_OES_packed_depth_stencil  detected and used
+LIBGL: Extension GL_OES_depth24  detected and used
+LIBGL: Extension GL_OES_rgb8_rgba8  detected and used
+LIBGL: Extension GL_EXT_texture_format_BGRA8888  detected and used
+LIBGL: Extension GL_OES_depth_texture  detected and used
+LIBGL: Extension GL_OES_texture_stencil8  detected and used
+LIBGL: Extension GL_EXT_texture_rg  detected and used
+LIBGL: Extension GL_EXT_color_buffer_float  detected and used
+LIBGL: Extension GL_EXT_color_buffer_half_float  detected and used
+LIBGL: high precision float in fragment shader available and used
+LIBGL: Max vertex attrib: 16
+LIBGL: Extension GL_OES_standard_derivatives  detected and used
+LIBGL: Max texture size: 16383
+LIBGL: Max Varying Vector: 31
+LIBGL: Texture Units: 16/16 (hardware: 16), Max lights: 8, Max planes: 6
+LIBGL: Extension GL_EXT_texture_filter_anisotropic  detected and used
+LIBGL: Max Anisotropic filtering: 16
+LIBGL: Max Color Attachments: 1 / Draw buffers: 1
+LIBGL: Hardware vendor is ARM
+LIBGL: GLSL 300 es supported
+LIBGL: GLSL 310 es supported and used
+LIBGL: sRGB surface supported
+LIBGL: EGLImage to Texture2D supported
+LIBGL: EGLImage to RenderBuffer supported
+LIBGL: Targeting OpenGL 2.1
+LIBGL: NPOT texture handled in hardware
+LIBGL: Not trying to batch small subsequent glDrawXXXX
+LIBGL: try to use VBO
+LIBGL: glXMakeCurrent FBO workaround enabled
+LIBGL: FBO workaround for using binded texture enabled
+LIBGL: Force texture for Attachment color0 on FBO
+LIBGL: Hack to trigger a SwapBuffers when a Full Framebuffer Blit on default FBO is done
+LIBGL: glX Will try to recycle EGL Surface
+LIBGL: Current folder is:/storage/roms/ports/petalcrush/gamedata
+Using native(wrapped) libGL.so.1
+Using native(wrapped) libdl.so.2
+Using emulated /storage/roms/ports/petalcrush/gamedata/bin32/libsteam_api.so
+Using native(wrapped) libpthread.so.0
+Using native(wrapped) libm.so.6
+Using native(wrapped) libc.so.6
+Using native(wrapped) ld-linux.so.2
+Using native(wrapped) librt.so.1
+Using emulated /roms/ports/petalcrush/box86/lib/libstdc++.so.6
+Using emulated /roms/ports/petalcrush/box86/lib/libgcc_s.so.1
+Call to dlopen("libSDL2-2.0.so.0"/0xff845d02, 2)
+Using native(wrapped) libSDL2-2.0.so.0
+dlopen: New handle 0x1 (libSDL2-2.0.so.0), dlopened=1
+Call to dlsym(0x1, SDL_DYNAPI_entry) :0x63974000
+[S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.
+[S_API FAIL] SteamAPI_Init() failed; unable to locate a running instance of Steam, or a local steamclient.so.
+Could not initialize Steam API
+reset
+Opening audio device
+Audio: alsa 44100 33056 2 1024
+Sound bank took 13.2599
+Create window: 960 540 34
+arm_release_ver of this libmali is 'g2p0-01eac0', rk_so_ver is '3'.Renderer: GL4ES wrapper - ptitSeb - 
+Calling SDL_GL_GetProcAddress("glBlendEquationSeparateEXT") => Calling glXGetProcAddress("glBlendEquationSeparateEXT") => 0x632dc090
+Calling SDL_GL_GetProcAddress("glBlendEquationEXT") => Calling glXGetProcAddress("glBlendEquationEXT") => 0x632dc0a0
+Calling SDL_GL_GetProcAddress("glBlendFuncSeparateEXT") => Calling glXGetProcAddress("glBlendFuncSeparateEXT") => 0x632dc0b0
+Calling SDL_GL_GetProcAddress("glActiveTextureARB") => Calling glXGetProcAddress("glActiveTextureARB") => 0x632dc0c0
+Calling SDL_GL_GetProcAddress("glClientActiveTextureARB") => Calling glXGetProcAddress("glClientActiveTextureARB") => 0x632dc0d0
+Calling SDL_GL_GetProcAddress("glGenFramebuffersEXT") => Calling glXGetProcAddress("glGenFramebuffersEXT") => 0x632dc0e0
+Calling SDL_GL_GetProcAddress("glDeleteFramebuffersEXT") => Calling glXGetProcAddress("glDeleteFramebuffersEXT") => 0x632dc0f0
+Calling SDL_GL_GetProcAddress("glFramebufferTexture2DEXT") => Calling glXGetProcAddress("glFramebufferTexture2DEXT") => 0x632dc100
+Calling SDL_GL_GetProcAddress("glBindFramebufferEXT") => Calling glXGetProcAddress("glBindFramebufferEXT") => 0x632dc110
+Calling SDL_GL_GetProcAddress("glUniform1iARB") => Calling glXGetProcAddress("glUniform1iARB") => 0x632dc120
+Calling SDL_GL_GetProcAddress("glUseProgramObjectARB") => Calling glXGetProcAddress("glUseProgramObjectARB") => 0x632dc130
+Calling SDL_GL_GetProcAddress("glDetachObjectARB") => Calling glXGetProcAddress("glDetachObjectARB") => 0x632dc140
+Calling SDL_GL_GetProcAddress("glGetInfoLogARB") => Calling glXGetProcAddress("glGetInfoLogARB") => 0x632dc150
+Calling SDL_GL_GetProcAddress("glGetObjectParameterivARB") => Calling glXGetProcAddress("glGetObjectParameterivARB") => 0x632dc160
+Calling SDL_GL_GetProcAddress("glLinkProgramARB") => Calling glXGetProcAddress("glLinkProgramARB") => 0x632dc170
+Calling SDL_GL_GetProcAddress("glCreateProgramObjectARB") => Calling glXGetProcAddress("glCreateProgramObjectARB") => 0x632dc180
+Calling SDL_GL_GetProcAddress("glAttachObjectARB") => Calling glXGetProcAddress("glAttachObjectARB") => 0x632dc190
+Calling SDL_GL_GetProcAddress("glCompileShaderARB") => Calling glXGetProcAddress("glCompileShaderARB") => 0x632dc1a0
+Calling SDL_GL_GetProcAddress("glShaderSourceARB") => Calling glXGetProcAddress("glShaderSourceARB") => 0x632dc1b0
+Calling SDL_GL_GetProcAddress("glCreateShaderObjectARB") => Calling glXGetProcAddress("glCreateShaderObjectARB") => 0x632dc1c0
+Calling SDL_GL_GetProcAddress("glUniform2fARB") => Calling glXGetProcAddress("glUniform2fARB") => 0x632dc1d0
+Calling SDL_GL_GetProcAddress("glUniform1fARB") => Calling glXGetProcAddress("glUniform1fARB") => 0x632dc1e0
+Calling SDL_GL_GetProcAddress("glUniform4fARB") => Calling glXGetProcAddress("glUniform4fARB") => 0x632dc1f0
+Calling SDL_GL_GetProcAddress("glGetUniformLocationARB") => Calling glXGetProcAddress("glGetUniformLocationARB") => 0x632dc200
+SDL_GL_ExtensionSupported: GL_EXT_framebuffer_object?
+SDL_GL_ExtensionSupported: GL_ARB_shader_objects?
+SDL_GL_ExtensionSupported: GL_ARB_vertex_shader?
+SDL_GL_ExtensionSupported: GL_ARB_fragment_shader?
+SDL_GL_ExtensionSupported: GL_ARB_texture_non_power_of_two?
+Starting image preload
+Image preload took 5.9791e-05
+Setting frame: 0
+Frame set: Opening Logo
+Local storage: Request: 0
+Wait for prev actions not implemented
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+Set canvas size not implemented: 320 180
+reset
+Setting frame: 18
+Frame set: Intro Cutscene
+reset
+Setting frame: 1
+Frame set: Title Screen
+Set canvas size not implemented: 320 180
+reset
+Setting frame: 5
+Frame set: Sign In
+reset
+Setting frame: 7
+Frame set: Main Menu
+reset
+Library librt.so.1 (0x639d7768) needs 0x639722d0, but it was not found. Ignoring.
+Library libm.so.6 (0x639d73a0) needs 0x639722d0, but it was not found. Ignoring.
+Library libpthread.so.0 (0x639d6208) needs 0x639722d0, but it was not found. Ignoring.
+Library libdl.so.2 (0x63977c48) needs 0x639722d0, but it was not found. Ignoring.
+Stop waiting for remaining thread 2969
+Stop waiting for remaining thread 2970
+Stop waiting for remaining thread 2971
+Stop waiting for remaining thread 2972
+Stop waiting for remaining thread 2973
+Stop waiting for remaining thread 2974
+LIBGL: Shuting down
